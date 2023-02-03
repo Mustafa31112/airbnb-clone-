@@ -15,10 +15,8 @@ import { Button } from '@mui/material';
 
 //date picker
 function Search() {
-  const [startDate, setStartDate] = useState
-  (new Date());
-  const [endDate, setEndDate] = useState 
-  (new Date());
+  const [startDate, setStartDate] = useState(new Date());
+  const [endDate, setEndDate] = useState(new Date());
   
   const selectionRange = {
     startDate: startDate,
